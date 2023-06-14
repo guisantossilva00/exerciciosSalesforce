@@ -1,1 +1,7 @@
+Exercicios Trigger Aepx Salesforce
 
+1 - Desenvolva um Trigger que, antes da inserção de um registro do objeto "Conta", verifique se o campo "Tipo de conta" não está vazio e, se estiver, defina-o como "Conta Padrão".
+2 - Crie um Trigger que, antes da inserção de um registro do objeto "Oportunidade", defina o campo "Data Inicio" como a data atual.
+3 - Desenvolva um Trigger que, antes da inserção de um registro do objeto "Contato", verifique se o campo "Email" já existe em outro registro de Contato e, se sim, retorne uma mensagem de erro.
+4 - Desenvolva um Trigger que, antes da inserção de um registro do objeto "Lead", adicione automaticamente um prefixo "LEAD-" ao campo "Titulo" para garantir que todos os números de Lead tenham esse prefixo.
+5 - Crie um Trigger que, antes da inserção de um registro do objeto "Oportunidade", defina o campo "Data Fechamento" como 1 mês depois da Data Atual.
